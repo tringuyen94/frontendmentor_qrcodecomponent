@@ -4,34 +4,34 @@ body {
    font-family: 'Montserrat';
    background-color: #D5E0EE;
    display: flex;
-   height: 100vh;
+   min-height: 100vh;
    justify-content: center;
    align-items: center;
 }
 
 .qr-code {
-   background-color: #eee;
-   padding: 13px;
+   background-color: #fff;
+   padding: 1rem;
    align-self: center;
    border-radius: 15px;
-
-   width: 250px;
+   width: 320px;
    text-align: center;
-   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
 }
 
 .qr-code__content {
+   font-size: 1rem;
    padding: 20px 0;
+   margin: .3rem;
 }
 
 .qr-code__content h1 {
-   font-size: 18px;
-   margin: 25px 0;
+   margin: 1.8rem 0;
 }
 
 .qr-code__content p {
-   font-size: 15px;
    font-weight: light;
+   margin-top: .5rem;
 }
 
 .qr-code img {
